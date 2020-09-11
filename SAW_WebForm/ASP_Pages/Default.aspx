@@ -5,8 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/Main.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Content/Main.css" rel="stylesheet" />
     <title>Главная страница</title>
 </head>
 <body>
@@ -24,9 +24,7 @@
                 <p>Онлайн калькулятор расчитан на выполнения 
                     вычисления несколькими сотрудниками</p>
                 <!--Заглушка, позже будет полноценная ссылка -->
-                <button class ="OtherButton btn">
-                    Расчет на калькуляторе »
-                </button>
+               <asp:Button runat="server" CssClass ="OtherButton btn" Text="Справочная информация по расчетам »" PostBackUrl="~/ASP_Pages/CALForm.aspx" />
            </section>
            <section class = "otherSection CalcSSection">
                 <h1>Расчет площади конуса и цилиндра</h1>
