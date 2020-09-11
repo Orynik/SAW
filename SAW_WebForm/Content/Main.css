@@ -1,0 +1,86 @@
+﻿@font-face{
+    font-family: "Roboto";
+    src: url(Fonts/Roboto-Bold.ttf) format("ttf");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto-Light.ttf) format("ttf");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto-Thin.ttf) format("ttf");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto-Medium.ttf) format("ttf");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*Common styles*/
+
+* {
+    box-sizing: content-box;   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: darkblue;
+}
+
+section{
+    padding: 2% 2%;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    color: darkblue;
+}
+
+/*Individual styles*/
+
+.AboutSAW{
+    background: yellow;
+    margin: 10px;
+    text-align: left;
+}
+
+.AboutSAW_Title{
+    font-size: 30px;
+}
+
+
+.OtherButton{
+    background-color: white;
+}
+
+.CalcSection {
+    background: lightgreen;
+}
+
+.CalcSSection{
+    background-color: lightpink;
+}
+
+.CalcVSection {
+    background-color:lightblue;
+}

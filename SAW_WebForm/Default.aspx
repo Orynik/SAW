@@ -1,0 +1,54 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="SAW_WebForm.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Main.css" rel="stylesheet" />
+    <title>Главная страница</title>
+</head>
+<body>
+    <div class ="main">
+       <section class = "AboutSAW">
+           <h1>Автоматизация рабочего места сотрудников компании</h1>
+           <p>Выполнена студентом Ангарского Политехнического техникума специальности 
+               09.02.04 "Информационные системы"</p>
+           <!--Заглушка, позже будет полноценная ссылка -->
+           <button class ="SAWButton btn btn-primary">
+               Справочная информация по расчетам »
+           </button>
+       </section>
+       <div class = "d-flex justify-content-center">
+           <section class = "otherSection CalcSection">
+                <h1>Расчеты на калькуляторе онлайн</h1>
+                <p>Онлайн калькулятор расчитан на выполнения 
+                    вычисления несколькими сотрудниками</p>
+                <!--Заглушка, позже будет полноценная ссылка -->
+                <button class ="OtherButton btn">
+                    Расчет на калькуляторе »
+                </button>
+           </section>
+           <section class = "otherSection CalcSSection">
+                <h1>Расчет площади конуса и цилиндра</h1>
+                <p>Онлайн калькулятор площади конуса и цилиндра расчитан на выполнения 
+                    вычисления несколькими сотрудниками</p>
+                <!--Заглушка, позже будет полноценная ссылка -->
+                <button class ="OtherButton btn">
+                    Расчет площади »
+                </button>
+           </section>
+           <section class = "otherSection CalcVSection">
+               <h1>Расчет объема конуса и цилиндра</h1>
+               <p>Онлайн калькулятор площади конуса и цилиндра расчитан на выполнения 
+                   вычисления несколькими сотрудниками</p>
+               <!--Заглушка, позже будет полноценная ссылка -->
+               <button class ="OtherButton btn">
+                   Расчет объема »
+               </button>
+           </section>
+       </div>
+    </div>
+</body>
+</html>
