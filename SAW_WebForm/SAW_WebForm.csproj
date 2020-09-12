@@ -79,6 +79,7 @@
     <Content Include="Content\Main.css" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\PLForm.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -200,6 +201,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PLForm.aspx.cs">
+      <DependentUpon>PLForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PLForm.aspx.designer.cs">
+      <DependentUpon>PLForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages\SPRForm.aspx.cs">

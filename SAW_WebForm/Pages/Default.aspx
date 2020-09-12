@@ -28,10 +28,7 @@
                 <h1>Расчет площади конуса и цилиндра</h1>
                 <p>Онлайн калькулятор площади конуса и цилиндра расчитан на выполнения 
                     вычисления несколькими сотрудниками</p>
-                <!--Заглушка, позже будет полноценная ссылка -->
-                <button class ="OtherButton btn">
-                    Расчет площади »
-                </button>
+                <asp:Button runat="server" CssClass ="OtherButton btn" Text="Расчет площади »" PostBackUrl="~/Pages/PLForm.aspx" />
            </section>
            <section class = "otherSection CalcVSection">
                <h1>Расчет объема конуса и цилиндра</h1>
