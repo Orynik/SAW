@@ -69,7 +69,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pages\CALForm.aspx" />
+    <Content Include="ASP_NET\CALForm.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
@@ -77,9 +77,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Main.css" />
-    <Content Include="Pages\Default.aspx" />
+    <Content Include="ASP_NET\Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Pages\PLForm.aspx" />
+    <Content Include="ASP_NET\PLForm.aspx" />
+    <Content Include="ASP_NET\OBForm.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -179,42 +180,49 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
-    <Content Include="Pages\SPRForm.aspx">
+    <Content Include="ASP_NET\SPRForm.aspx">
       <SubType>ASPXCodeBehind</SubType>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\CALForm.aspx.cs">
+    <Compile Include="ASP_NET\CALForm.aspx.cs">
       <DependentUpon>CALForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\CALForm.aspx.designer.cs">
+    <Compile Include="ASP_NET\CALForm.aspx.designer.cs">
       <DependentUpon>CALForm.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Default.aspx.cs">
+    <Compile Include="ASP_NET\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Default.aspx.designer.cs">
+    <Compile Include="ASP_NET\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Pages\PLForm.aspx.cs">
+    <Compile Include="ASP_NET\PLForm.aspx.cs">
       <DependentUpon>PLForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\PLForm.aspx.designer.cs">
+    <Compile Include="ASP_NET\PLForm.aspx.designer.cs">
       <DependentUpon>PLForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ASP_NET\OBForm.aspx.cs">
+      <DependentUpon>OBForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP_NET\OBForm.aspx.designer.cs">
+      <DependentUpon>OBForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Pages\SPRForm.aspx.cs">
+    <Compile Include="ASP_NET\SPRForm.aspx.cs">
       <DependentUpon>SPRForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\SPRForm.aspx.designer.cs">
+    <Compile Include="ASP_NET\SPRForm.aspx.designer.cs">
       <DependentUpon>SPRForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -253,7 +261,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ASP_Pages\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

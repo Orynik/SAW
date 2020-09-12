@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cone.cs" />
-    <Compile Include="Cylinder.cs" />
+    <Compile Include="ConeArea.cs" />
+    <Compile Include="CylinderArea.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SideAreaDependency.cs" />
   </ItemGroup>

@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PLForm.aspx.cs" Inherits="SAW_WebForm.Pages.PLForm" %>
-
-<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="OBForm.aspx.cs" Inherits="SAW_WebForm.Pages.WebForm1" %>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -9,11 +7,11 @@
     <link href="../Content/Main.css" rel="stylesheet" />
     <title>Калькулятор площади конуса и цилиндра</title>
 </head>
-<body class ="CalcSSection">
+<body class ="CalcVSection">
     <form id="form2" runat="server">
         <fieldset>
-            <h1>Калькулятор</h1>
-            <div class ="d-flex">
+            <h1>Калькулятор Объема</h1>
+            <div class ="d-flex flex-column">
                 <div>
                     <asp:Label ID="LabelA" runat="server" Text="Ввод R"></asp:Label>
                     <asp:TextBox ID="R" runat="server"></asp:TextBox>
@@ -28,12 +26,13 @@
                     <asp:TextBox ID="result" runat="server" Enabled="false" Visible="true"></asp:TextBox>
                 </div>
                 <div>
-                    <asp:Button Text="Площадь конуса" runat="server" OnClick="Result_Сone_Btn_Click" />
-                    <asp:Button Text="Площадь цилиндра" runat="server" OnClick="Result_Cyl_Btn_Click" />
+                    <asp:Button Text="Объем конуса" runat="server" OnClick="Result_Сone_Btn_Click" />
+                    <asp:Button Text="Объем цилиндра" runat="server" OnClick="Result_Cyl_Btn_Click" />
                 </div>
             </div>
         </fieldset>
-        <asp:LinkButton CssClass ="mt-3 OtherButton btn" runat="server" PostBackUrl ="../Pages/Default.aspx" Text ="Вернуться на главную."/>
+        <asp:LinkButton CssClass ="mt-3 OtherButton btn" runat="server" PostBackUrl ="../ASP_NET/Default.aspx" Text ="Вернуться на главную."/>
     </form>
 </body>
 </html>
+

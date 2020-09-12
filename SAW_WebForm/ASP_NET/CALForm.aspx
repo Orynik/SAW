@@ -41,7 +41,7 @@
                 <asp:Button ID="Mod_btn" Text="%x" runat="server" OnClick="Mod_Btn_Click" />
             </div>
         </fieldset>
-        <asp:LinkButton CssClass ="mt-3 OtherButton btn" runat="server" PostBackUrl ="../Pages/Default.aspx" Text ="Вернуться на главную."/>
+        <asp:LinkButton CssClass ="mt-3 OtherButton btn" runat="server" PostBackUrl ="../ASP_NET/Default.aspx" Text ="Вернуться на главную."/>
     </form>
 </body>
 </html>

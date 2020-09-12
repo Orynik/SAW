@@ -15,29 +15,26 @@
            <h1>Автоматизация рабочего места сотрудников компании</h1>
            <p>Выполнена студентом Ангарского Политехнического техникума специальности 
                09.02.04 "Информационные системы"</p>
-           <asp:Button runat="server" CssClass ="SAWButton btn btn-primary" Text="Справочная информация по расчетам »" PostBackUrl="~/Pages/SPRForm.aspx" />
+           <asp:Button runat="server" CssClass ="SAWButton btn btn-primary" Text="Справочная информация по расчетам »" PostBackUrl="~/ASP_NET/SPRForm.aspx" />
        </section>
        <div class = "d-flex justify-content-center">
            <section class = "otherSection CalcSection">
                 <h1>Расчеты на калькуляторе онлайн</h1>
                 <p>Онлайн калькулятор расчитан на выполнения 
                     вычисления несколькими сотрудниками</p>
-               <asp:Button runat="server" CssClass ="OtherButton btn" Text="Справочная информация по расчетам »" PostBackUrl="~/Pages/CALForm.aspx" />
+               <asp:Button runat="server" CssClass ="OtherButton btn" Text="Справочная информация по расчетам »" PostBackUrl="~/ASP_NET/CALForm.aspx" />
            </section>
            <section class = "otherSection CalcSSection">
                 <h1>Расчет площади конуса и цилиндра</h1>
                 <p>Онлайн калькулятор площади конуса и цилиндра расчитан на выполнения 
                     вычисления несколькими сотрудниками</p>
-                <asp:Button runat="server" CssClass ="OtherButton btn" Text="Расчет площади »" PostBackUrl="~/Pages/PLForm.aspx" />
+                <asp:Button runat="server" CssClass ="OtherButton btn" Text="Расчет площади »" PostBackUrl="~/ASP_NET/PLForm.aspx" />
            </section>
            <section class = "otherSection CalcVSection">
                <h1>Расчет объема конуса и цилиндра</h1>
                <p>Онлайн калькулятор площади конуса и цилиндра расчитан на выполнения 
                    вычисления несколькими сотрудниками</p>
-               <!--Заглушка, позже будет полноценная ссылка -->
-               <button class ="OtherButton btn">
-                   Расчет объема »
-               </button>
+                <asp:Button runat="server" CssClass ="OtherButton btn" Text="Расчет объема »" PostBackUrl="~/ASP_NET/OBForm.aspx" />
            </section>
        </div>
     </form>

@@ -43,7 +43,7 @@
         </p>
     </div>
     <form runat="server">
-        <asp:LinkButton CssClass ="SAWButton btn btn-primary" runat="server" PostBackUrl ="../Pages/Default.aspx" Text ="Вернуться на главную."/>
+        <asp:LinkButton CssClass ="SAWButton btn btn-primary" runat="server" PostBackUrl ="../ASP_NET/Default.aspx" Text ="Вернуться на главную."/>
     </form>    
 </body>
 </html>

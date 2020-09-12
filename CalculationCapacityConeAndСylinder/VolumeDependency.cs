@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculateonAreaOfConeAndCylinder
+namespace CalculationCapacityConeAndСylinder
 {
-    public class SideAreaDependency
+    public class VolumeDependency
     {
         public double l(int R,int h)
         {

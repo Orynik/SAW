@@ -1,19 +1,20 @@
-﻿using System;
+﻿using CalculateonAreaOfConeAndCylinder;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculateonAreaOfConeAndCylinder
+namespace CalculationCapacityConeAndСylinder
 {
-    public class Cone
+    public class ConeArea
     {
         private int R;
         private int h;
 
         private SideAreaDependency Dependency = new SideAreaDependency();
 
-        public Cone(int R,int h)
+        public ConeArea(int R,int h)
         {
             this.R = R;
             this.h = h;

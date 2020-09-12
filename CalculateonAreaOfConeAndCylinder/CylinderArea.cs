@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace CalculateonAreaOfConeAndCylinder
 {
-    public class Cylinder
+    public class CylinderArea
     {
         private int R;
         private int h;
         private SideAreaDependency Dependency = new SideAreaDependency();
 
-        public Cylinder(int R, int h)
+        public CylinderArea(int R, int h)
         {
             this.R = R;
             this.h = h;
